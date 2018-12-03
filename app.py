@@ -64,7 +64,7 @@ app.layout = html.Div([
                 value = available_indicators[0],
             )
         ],
-        style = {'width': '48%', 'display': 'inline-block'}),
+        style = {'width': '48%', 'display': 'inline-block', 'height': '130px'}),
         
         html.Div([
             html.P(
