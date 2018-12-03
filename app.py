@@ -1,10 +1,16 @@
+
+# coding: utf-8
+
+# In[ ]:
+
+
 import pandas as pd
 import dash
 import dash_core_components as dcc
 import dash_html_components as html
 import plotly.graph_objs as go
 
-data = pd.read_csv('nama_10_gdp/nama_10_gdp_1_Data.csv', error_bad_lines = False, engine = 'python', na_values = [':', 'NaN'])
+data = pd.read_csv('nama_10_gdp_1_Data.csv', error_bad_lines = False, engine = 'python', na_values = [':', 'NaN'])
 
 europe_values = [
     'European Union (current composition)',
